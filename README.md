@@ -5,4 +5,7 @@ Calculations are performed on
 1) Single CPU and serial calculation,
 2) Parallel calculation MPI (Intel OneAPI), and
 3) TITAN V GPU
-4) Quadro RTX 6000 GPU
+4) Quadro RTX 6000 GPU (with CPU AMD Ryzen 7 5800X)
+
+There are two input files pw.in and ph.in. All the output files are tagged with correcposding flags: eg pw_MPI.out
+I hope that you will enjoy reading these benchmarking.
