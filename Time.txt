@@ -1,10 +1,10 @@
-	CPU    WALL	     HARD/Soft	Remark
-PWSCF   2m12.79s  2m16.56s   CPU       1 core
-        12.42s    28.42s     MPI       16 core
-        53.92s    35.20s     GPU       Titan V
-        59.61s    41.00s     RTX6000   RTX 6000
+	CPU    WALL	     HARD/Soft	Remark   Ratio (wall)
+PWSCF   2m12.79s  2m16.56s   CPU       1 core        1.00
+        12.42s    28.42s     MPI       16 core       4.81
+        53.92s    35.20s     GPU       Titan V       3.88
+        59.61s    41.00s     RTX6000   RTX 6000      3.33
 
-PHONON  23h42m    23h47m     CPU       1 core
-        2h 1m     4h27m      MPI       16 core
-        6h40m     4h57m      GPU       Titan V
-        10h 7m    8h 3m      RTX6000   RTX6000
+PHONON  23h42m    23h47m     CPU       1 core        1.00
+        2h 1m     4h27m      MPI       16 core       5.35
+        6h40m     4h57m      GPU       Titan V       4.81
+        10h 7m    8h 3m      RTX6000   RTX6000       2.95
